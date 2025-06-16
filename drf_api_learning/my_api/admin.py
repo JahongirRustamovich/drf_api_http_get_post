@@ -7,3 +7,4 @@ class ProductAdmin(admin.ModelAdmin):
     list_filter = ('available',)
     search_fields = ('name', 'description')
 
+

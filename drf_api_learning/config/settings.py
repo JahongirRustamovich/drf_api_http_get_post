@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'delete_api',
     'put_api',
     'post_api',
+    'my_api',
+
 ]
 
 MIDDLEWARE = [

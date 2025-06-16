@@ -25,7 +25,9 @@ urlpatterns = [
     path('delete/', include('delete_api.urls')),
     path('put/', include('put_api.urls')),
     path('post/', include('post_api.urls')),
-]
 
+    path('my_api/', include('my_api.urls')),
+
+]
 
 
